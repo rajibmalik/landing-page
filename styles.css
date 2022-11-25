@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container{
+  display: flex;
+  background-color: #1F2937;
+  height: 100px;
+  color: white;
+  border: solid firebrick;
+  justify-content: center;
+  
+  
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.link-container {
+  display: flex;
+  border: solid green;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
