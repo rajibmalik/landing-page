@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -25,9 +26,12 @@ body {
 }
 
 .header-logo {
+  display: flex;
+  height: px;
   font-size: 24px;
   color: #f9faf8;
 }
+
 
 .link-container {
   display: flex;
@@ -49,20 +53,17 @@ body {
   background-color: #1F2937;
   justify-content: space-between;
   color: white;
-
 } 
 
 .header-content-left {
   flex: 1;
   border: solid white;
   justify-content: flex-end;
-
 }
 
 .left-header-content-container {
   display: flex;
   flex-direction: column;
-
 }
 
 .left-content-header {
@@ -78,16 +79,15 @@ body {
 }
 
 .left-content-button {
-  flex: auto;
-  background-color: turquoise;
-  border-radius: 5px;
-  border-color: turquoise;
-  width: 75px;
-  color: #f9faf8;
+  border-radius: 8px;
   font-weight: bold;
   font-size: 12px;
-  
-
+  background: #3882f6;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  border: 0px;
+  color: #f9faf8;
 }
 
 .header-content-right {
