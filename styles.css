@@ -79,14 +79,14 @@ body {
 
 .header-sign-up-button {
   margin-top: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 12px;
   background: #3882f6;
-  width: 90px;
   height: 35px;
   border: 0px;
   color: #f9faf8;
+  padding: 10px 28px;
 }
 
 .header-image {
@@ -176,8 +176,8 @@ body {
   display: flex;
   border: solid blue;
   flex-grow: 1;
-  margin: 105px;
-  justify-content: center;
+  margin: 115px;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
   background-color: blue;
@@ -197,13 +197,18 @@ body {
   margin-top: 25px;
   color: white;
   font-size: 20px;
-  
 }
 
+.sign-up-content {
+  margin-left: 100px;
+}
 
-
-
-
-
-
+.main-container-three-sign-up-button {
+  margin-right: 100px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 28px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
 
