@@ -30,42 +30,38 @@ body {
   border-top: 25px;
 }
 
-.header-logo {
+.header-logo, 
+.link-container,
+.links {
   display: flex;
 }
 
+.header-logo {
+  mix-blend-mode: multiply;
+}
+
 .link-container {
-  display: flex;
   width: 700px;
 }
 
 .links {
-  display: flex;
   justify-content: space-between;
   flex-grow: 1;
 }
 
 .header-content {
   display: flex;
-  border: solid blue;
   height: 300px;
   background-color: #1F2937;
   justify-content: space-between;
   color: white;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0px 100px 50px 100px;
+  gap: 30px;
 } 
 
-
-.header-content-left {
+.header-content-left,
+.header-content-right{
   flex: 1;
-  border: solid white;
-  justify-content: flex-end;
-}
-
-.left-header-content-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .left-content-header {
@@ -80,24 +76,25 @@ body {
   color: #e5e7eb;
 }
 
-.left-content-button {
+.header-sign-up-button {
+  margin-top: 10px;
   border-radius: 8px;
   font-weight: bold;
   font-size: 12px;
   background: #3882f6;
-  outline: none;
-  width: 100px;
-  height: 30px;
+  width: 90px;
+  height: 35px;
   border: 0px;
   color: #f9faf8;
 }
 
 .header-content-right {
-  flex: 1;
-  border: solid purple;
-  justify-content: flex-start;
+  display: flex;
 }
 
+.header-image {
+  object-fit: cover;
+}
 .main-container {
   display: flex;
   border: solid green;
